@@ -18,8 +18,7 @@ LlamaFS runs in two "modes" - as a batch job (batch mode), and an interactive da
 
 In batch mode, you can send a directory to LlamaFS, and it will return a suggested file structure and organize your files.
 
-In watch mode, LlamaFS starts a daemon that watches your directory. It intercepts all filesystem operations, updates i and uses your most recent edits in context to proactively learn and how, so you don't 
-learns predict how you rename file. e.g. if you create a folder for 2023 tax documents, and start moving 1-3 file in it, LlamaFS will automatically creates, and move the right!
+In watch mode, LlamaFS starts a daemon that monitors your directory. It intercepts all filesystem operations, updates itself, and utilizes your most recent edits in context to proactively learn how you rename files. For example, if you create a folder for 2023 tax documents and start moving files into it, LlamaFS will automatically create and move the files to the right location!
 
 Uhh... Sending all my personal files to an API provider?! No thank you!
 
